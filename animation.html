@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animation</title>
+    <style>
+        .container{
+            height: 100vw;
+            width: 100vw;
+            background-color: blue;
+            color: brown;
+        }
+        .class1{
+            background-color: burlywood;
+            width: 300px;
+            height: 250px;
+            color: crimson;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            animation-name: animate;
+           animation-duration: 3s;
+           animation-delay: 2s;
+           animation-iteration-count: infinite;
+           animation-direction: alternate-reverse;
+           animation-timing-function: ease-in;
+         
+           
+        
+        }
+        @keyframes animate{
+            from{
+                width: 300px;
+                height: 250vh;
+            }
+            to{
+                width: 800px;
+                height: 250vh;
+            }
+
+        }
+       
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="class1">Hey,Myself Gaurav Saini.</div>
+
+    </div>
+    
+</body>
+</html>
